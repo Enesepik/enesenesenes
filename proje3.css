@@ -1,0 +1,394 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    background-color: white;
+    color:black;
+    list-style-type: none;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.girisKayit{
+    word-spacing: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menü{
+    margin-top: 0px;
+    left: 90px;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 2;
+}
+.menüli:hover .menü{
+    display: block;
+    background-color: white;
+}
+.yazi{
+    font-size: 20px;
+}
+.menü ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+.menü ul{
+    margin-left: -19px;
+}
+.menüli{
+    height: 50px;
+
+}
+.menüli a{
+    color: black;
+}
+.girisKayit a{
+    color: black;
+}
+nav ul li{
+    margin-top: 20px;
+}
+.resimBüyük{
+    height: 600px;
+    width: 400px;
+}
+.yanÜst{
+    height: 200px;
+    width: 400px;
+
+}
+.soru{
+    height: 182px;
+    width: 400px;
+    border: 1px solid black;
+}
+.orta{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.numara div{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+}
+.numara{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.numara1 div{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 12px;
+}
+.numara1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.btn{
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+.soru{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    border: none;
+}
+
+.container{
+    position: relative;
+    height: 200px;
+    width: 300px;
+
+
+}
+.kart{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease-out;
+}
+.kartön{
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   width: 100%;
+   height: 100%;
+   backface-visibility: hidden;
+}
+.kartarka{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: gray;
+    border-radius: 50px;
+    transform: rotateY(180deg);
+ }
+ .kart:hover{
+    transform: rotateY(180deg);
+ }
+ .kartön img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+ }
+.kart1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease-out;
+}
+.kart1ön{
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   width: 100%;
+   height: 100%;
+   backface-visibility: hidden;
+}
+.kart1arka{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: gray;
+    border-radius: 50px;
+    transform: rotateY(180deg);
+ }
+ .kart1:hover{
+    transform: rotateY(180deg);
+ }
+ .kart1ön img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+ }
+ .kartlar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ }
+ .kart2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease-out;
+}
+.kart2ön{
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   width: 100%;
+   height: 100%;
+   backface-visibility: hidden;
+}
+.kart2arka{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: gray;
+    border-radius: 50px;
+    transform: rotateY(180deg);
+ }
+ .kart2:hover{
+    transform: rotateY(180deg);
+ }
+ .kart2ön img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+ }
+ .kart3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease-out;
+}
+.kart3ön{
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   width: 100%;
+   height: 100%;
+   backface-visibility: hidden;
+}
+.kart3arka{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: gray;
+    border-radius: 50px;
+    transform: rotateY(180deg);
+ }
+ .kart3:hover{
+    transform: rotateY(180deg);
+ }
+ .kart3ön img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+ }
+ .footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+}
+.left{
+    width: 400px;
+    height: inherit;
+    border: 1px solid black;
+    background-color: black;
+
+}
+.space{
+    width: 400px;
+    height: inherit;
+    border: 1px solid black;
+    background-color: black;
+}
+.right{
+    width: 400px;
+    height: inherit;
+    border: 1px solid black;
+    background-color: black;
+}
+.collection a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.frequency a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+}
+.marka a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+}
+.icons{
+    font-size: 40px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.icons a{
+    color: white;
+}
+.fiyat{
+    font-size: 20px;
+    font-weight: bold;
+}
+.numara, .numara1 div{
+    font-size: 16px;
+    font-weight: bold;
+}
+.resimBüyük img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+.soru p{
+    color: gray;
+    font-size: 12px;
+    padding-top: 40px;
+}
+.kartarka p{
+     text-align: center;
+     padding-top: 80px;
+     font-size: 20px;
+     color: aqua;
+}
+.kart1arka p{
+     text-align: center;
+     padding-top: 80px;
+     font-size: 20px;
+     color: rgb(248, 222, 222);
+}
+.kart2arka p{
+     text-align: center;
+     padding-top: 80px;
+     font-size: 20px;
+     color: coral;
+}
+.kart3arka p{
+     text-align: center;
+     padding-top: 80px;
+     font-size: 20px;
+     color: rgb(116, 51, 51);
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}

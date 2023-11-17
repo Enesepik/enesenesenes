@@ -1,0 +1,346 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    background-color: white;
+    color:black;
+    list-style-type: none;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.girisKayit{
+    word-spacing: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menü{
+    margin-top: 0px;
+    left: 90px;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 2;
+}
+.menüli:hover .menü{
+    display: block;
+    background-color: white;
+}
+.menü ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+.menü ul{
+    margin-left: -19px;
+}
+.menüli{
+    height: 50px;
+
+}
+.menüli a{
+    color: black;
+}
+.girisKayit a{
+    color: black;
+}
+nav ul li{
+    margin-top: 20px;
+}
+.yazi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sol{
+    height: 1030px;
+    width: 300px;
+    border-right: 1px solid black;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+.kartlar1 div{
+    height: 400px;
+    width: 250px;
+    background-color: rgba(255, 105, 180, 0.07);
+    filter: blur(5px);
+    
+}
+.kartlar2 div{
+    height: 400px;
+    width: 250px;
+    background-color: rgba(255, 105, 180, 0.055);
+    filter: blur(5px);
+}
+.kartlar1{
+    margin-left: 150px;
+    display: flex;
+    gap: 80px;
+}
+
+.kartlar2{
+    display: flex;
+    gap: 80px;
+    margin-left: 150px;
+    margin-top: 225px;
+}
+.yanYana{
+    display: flex;
+    margin-top: 100px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+}
+.left{
+    width: 400px;
+    height: inherit;
+    border: 1px solid black;
+    background-color: black;
+
+
+}
+.space{
+    width: 400px;
+    height: inherit;
+    border: 1px solid black;
+    background-color: black;
+}
+.right{
+    width: 400px;
+    height: inherit;
+    border: 1px solid black;
+    background-color: black;
+}
+.collection a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.frequency a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+}
+.marka a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+}
+.icons{
+    font-size: 40px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.ayak1 img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;   
+}
+.kartlar1 div:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+    z-index: 999;
+}
+.kartlar2 div:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+    z-index: 999;
+}
+.ayak2 img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;   
+}
+.kartlar3 div:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+}
+.ayak3 img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;   
+}
+.kartlar4 div:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+}
+.ayak4 img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;   
+}
+.kartlar5 div:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+}
+.ayak5 img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;   
+}
+.kartlar6 div:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+}
+.ayak6 img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;   
+}
+.yazilar{
+    position: absolute;
+    display: flex;
+    right: 120px;
+    top: 300px;
+    gap: 120px;
+}
+.yazilarBaslik{
+    position: absolute;
+    display: flex;
+    right: 130px;
+    top: 250px;
+    gap: 270px;
+}
+.yazilar1{
+    position: absolute;
+    display: flex;
+    gap: 180px;
+    bottom: -80px;
+    right: 120px;
+}
+.yazilarBaslik1{
+    position: absolute;
+    display: flex;
+    gap: 260px;
+    bottom: -40px;
+    right: 140px;
+}
+.numaralar div{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+.numaralar1 div{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black; 
+}
+.numaralar,.numaralar1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: center;
+}
+.numaralar{
+    margin-top: 20px;
+}
+.markalar{
+    margin-top: 20px;
+}
+.Adidas{
+    width: 90%;
+    background-color: rgb(214, 211, 211);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.nike{
+    width: 90%;
+    background-color: rgb(214, 211, 211);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.jordan{
+    width: 90%;
+    background-color: rgb(214, 211, 211);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.Asics{
+    width: 90%;
+    background-color: rgb(214, 211, 211);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.puma{
+    width: 90%;
+    background-color: rgb(214, 211, 211);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.renk input,span{
+    margin-top: 20px;
+}
+.renk{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.aralik input,span{
+    margin-top: 20px;
+}
+.aralik{
+    font-size: 20px;
+    font-weight: bold;
+}
+.eno{
+    font-size: 20px;
+    font-weight: bold;
+}
+.markalar p{
+    padding: 4px;
+}
+    
